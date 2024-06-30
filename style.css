@@ -432,26 +432,13 @@ footer div :hover {
         font-size: 12px;
         font-weight: bold;
       }
-      
-      .table-dark tr td{
-          color: white !important;
-          background-color: rgba(195, 190, 190, 0.1);
-      }
-      
+    
       .trimg {
-        width: 25px;
-        height: 25px;
+        width: 15px;
+        height: 15px;
         border-radius: 50%;
       }
       
-      .negative {
-        color: var(--tomato);
-        font-weight: 600;
-      }
-      .positive {
-        color: var(--primary-color);
-        font-weight: 600;
-      }
       
       footer{
         display: none;
