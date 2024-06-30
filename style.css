@@ -436,10 +436,12 @@ footer div :hover {
       .trimg {
         width: 15px;
         height: 15px;
-        border-radius: 50%;
       }
       
-      
+      .subfooter {
+        font-size: 12px;
+        margin-bottom: 10px;
+      }
       footer{
         display: none;
       }
