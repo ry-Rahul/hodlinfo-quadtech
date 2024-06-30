@@ -397,6 +397,62 @@ footer div :hover {
       .mid-total-avg {
         font-size: 10px;
       }
+
+
+      /* Table starts from here____________________________________________________________________________ */
+      table {
+        margin-top: 60px;
+        margin-bottom: 30px;
+        font-size: small;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 20px 0;
+        border-collapse: separate;
+        border-spacing: 0 1em;
+      }
+      
+      table th,
+      table td {
+        padding: 5px;
+        text-align: center;
+        color: var(--gray);
+        border: none;
+    
+      }
+      
+      #data-table tr {
+        background-color: rgba(0, 0, 0, 0.03);
+        margin-top: 5px;
+      }
+      
+      #data-table tr td {
+        color: var(--quaternary-color);
+        font-size: 12px;
+        font-weight: bold;
+      }
+      
+      .table-dark tr td{
+          color: white !important;
+          background-color: rgba(195, 190, 190, 0.1);
+      }
+      
+      .trimg {
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+      }
+      
+      .negative {
+        color: var(--tomato);
+        font-weight: 600;
+      }
+      .positive {
+        color: var(--primary-color);
+        font-weight: 600;
+      }
+      
       footer{
         display: none;
       }
