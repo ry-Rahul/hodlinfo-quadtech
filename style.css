@@ -442,6 +442,9 @@ footer div :hover {
         font-size: 12px;
         margin-bottom: 10px;
       }
+      .hr {
+        border: 0.3px solid rgba(0, 0, 0, 0.3);
+      }
       footer{
         display: none;
       }
