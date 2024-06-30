@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hodllnfo</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <img src="./images/asset 0.png" alt="logo" class="logo" />
+        <div class="conversion" id="converse">
+          <div class="conversion-bttn">
+            <div>INR</div>
+            <i class="fa-solid fa-caret-down"></i>
+          </div>
+
+          <div class="conversion-bttn" id="converse">
+            <div>BTC</div>
+            <i class="fa-solid icon fa-caret-down"></i>
+          </div>
+          <div class="conversion-bttn">BUY BTC</div>
+        </div>
+
+        <div class="header-right" id="header-right">
+          <div class="counter">60</div>
+          <div class="join-telegram">
+            <img src="./images/asset 1.png" alt="" />
+            <p>Connect Telegram</p>
+          </div>
+          <div class="toggle-bttn">
+            <div class="circle" onclick="toggledark()" id="toggle"></div>
+          </div>
+        </div>
+      </header>
+
+      <div class="middlePart" id="middle-part-dark">
+        <div class="mid">
+          <div>0.1 %</div>
+          <p>5 Mins</p>
+        </div>
+        <div class="mid">
+          <div>0.85 %</div>
+          <p>1 Hour</p>
+        </div>
+        <div class="mid-total">
+          <div class="mid-total-best-price">Best Price to Trade</div>
+          <div class="mid-total-price">₹ 53,55,350</div>
+          <div class="mid-total-avg">
+            Average BTC/INR net price including commission
+          </div>
+        </div>
+        <div class="mid">
+          <div>8.25 %</div>
+          <p>1 Day</p>
+        </div>
+        <div class="mid">
+          <div>13.85 %</div>
+          <p>7 Days</p>
+        </div>
+      </div>
+
+      <table class="table">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Platform</th>
+            <th>Last Traded Price</th>
+            <th>Buy / Sell Price</th>
+            <th>Difference</th>
+            <th>Savings</th>
+          </tr>
+        </thead>
+        <tbody id="data-table"></tbody>
+      </table>
+    </div>
+
+    <div class="hr"></div>
+    <div class="subfooter">
+      <div>
+        <p>Copyright © 2019</p>
+        <p>HodlInfo.com</p>
+      </div>
+      <p>Support</p>
+    </div>
+    <footer>
+      <div>Add Hodllnfo to home Screen</div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
