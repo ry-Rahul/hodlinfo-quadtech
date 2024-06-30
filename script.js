@@ -53,7 +53,7 @@ function fetchDataAndUpdateTable() {
 }
 
 
-let toggle = true;
+let toggle = false;
 function toggledark() {
     document.body.classList.toggle('dark-mode', toggle);
     document.querySelector('#toggle').classList.toggle('toggle-ball', toggle);
