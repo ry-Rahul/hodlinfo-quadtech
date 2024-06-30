@@ -397,5 +397,7 @@ footer div :hover {
       .mid-total-avg {
         font-size: 10px;
       }
-      
+      footer{
+        display: none;
+      }
 }
