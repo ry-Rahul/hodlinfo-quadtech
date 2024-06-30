@@ -322,3 +322,49 @@ footer div :hover {
   width: 100%;
   margin-top: 20px;
 }
+
+
+
+
+/* media query of the header part __________________________________________________________________________*/
+@media screen and (max-width: 768px) {
+ 
+    header{
+        flex-direction: column;
+    }
+    header img {
+        width: 250px;
+        height: 40px;
+        padding: 10px;
+      }
+      .conversion {
+        gap: 10px;
+      }
+      .conversion-bttn {
+        padding: 5px 10px;
+      }
+      .header-right {
+        margin-top: 10px;
+      }
+      .counter {
+        width: 10px;
+        height: 10px;
+        padding: 5px;
+        font-size: small;
+
+      }
+      .join-telegram {
+        height: 30px;
+        width: 150px;
+        gap: 5px;
+        padding: 0 10px;
+      }
+      
+      .join-telegram img {
+        width: 20px;
+        height: 20px;
+      }
+
+      /* media query for middle part _______________________________________________________________ */
+      
+}
